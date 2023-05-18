@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crypto on fliqqs</title>
+    <link>http://www.example.com/tags/crypto/</link>
+    <description>Recent content in crypto on fliqqs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Nov 2022 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gonna lift em all</title>
+      <link>http://www.example.com/posts/gonna_lift_em_all/gonna_lift_em_all/</link>
+      <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/gonna_lift_em_all/gonna_lift_em_all/</guid>
+      <description>For this challenge we are given two files.
+chall.py
+from Crypto.Util.number import bytes_to_long, getPrime import random  FLAG = b&amp;#39;HTB{??????????????????????????????????????????????????????????????????????}&amp;#39;  def gen_params():  p = getPrime(1024)  g = random.randint(2, p-2)  x = random.randint(2, p-2)  h = pow(g, x, p)  return (p, g, h), x  def encrypt(pubkey):  p, g, h = pubkey  m = bytes_to_long(FLAG)  y = random.randint(2, p-2)  s = pow(h, y, p)  return (g * y % p, m * s % p)  def main():  pubkey, privkey = gen_params()  c1, c2 = encrypt(pubkey)   with open(&amp;#39;data.</description>
+    </item>
+    
+  </channel>
+</rss>

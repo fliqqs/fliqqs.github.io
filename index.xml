@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fliqqs</title>
+    <link>http://www.example.com/</link>
+    <description>Recent content on fliqqs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turtle Shell</title>
+      <link>http://www.example.com/posts/turtleshell/turtleshell/</link>
+      <pubDate>Fri, 05 May 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/turtleshell/turtleshell/</guid>
+      <description>Turtle Shell  Link to heading   For this challenge we are told to coerce a turtle to come out of its shell.
+Poking around in ghidra we can see that our user input is taken and put in a buffer strstr is done against our input to check if bad is inside it. Then what is in the buffer is executed.
+This looks a little strange so I decided to have a poke around using gdb.</description>
+    </item>
+    
+    <item>
+      <title>Babygame01</title>
+      <link>http://www.example.com/posts/babygame01/babygame01/</link>
+      <pubDate>Tue, 02 May 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/babygame01/babygame01/</guid>
+      <description>Baby Game  Link to heading   For this challenge we are given a game to play
+Moving to the X in the bottom right informs us that &amp;ldquo;You win!&amp;rdquo; and exits the program. This does not give us the flag so lets have a poke around in ghidra.
+In the main function we can see we get the flag if local_aa4 is != &amp;lsquo;\0&amp;rsquo;. which is a local variable placed on the stack before a large buffer (local_aa0).</description>
+    </item>
+    
+    <item>
+      <title>Secrets</title>
+      <link>http://www.example.com/posts/secrets/secrets/</link>
+      <pubDate>Thu, 05 Jan 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/secrets/secrets/</guid>
+      <description>For this reversing challenge we are given a binary and told it has some secrets.
+Running this application by itself resulted in a segfault. So I tried with some arguments.
+I decided to open up the application in ghidra and have a poke around. I saw that there was a red herring so I decided to chase it.
+We can see there is a string comparison with local_14 which is a string that resolves to &amp;ldquo;hello_there&amp;rdquo; so lets try that as arguments.</description>
+    </item>
+    
+    <item>
+      <title>Evaluation Deck</title>
+      <link>http://www.example.com/posts/evaluation_deck/evaluation_deck/</link>
+      <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/evaluation_deck/evaluation_deck/</guid>
+      <description>For this challenge I forget to take screenshots during the event so I am running it locally for this writeup. We are given the address of a website and the source code which if a flask web server.
+After playing around with the card game for a bit I decided to dig around through the source code and see what stood out. After poking around I saw that an api was exposed, I took my a while to reach it as I forgot to add /api/ before trying to access the endpoints.</description>
+    </item>
+    
+    <item>
+      <title>Gonna lift em all</title>
+      <link>http://www.example.com/posts/gonna_lift_em_all/gonna_lift_em_all/</link>
+      <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/gonna_lift_em_all/gonna_lift_em_all/</guid>
+      <description>For this challenge we are given two files.
+chall.py
+from Crypto.Util.number import bytes_to_long, getPrime import random  FLAG = b&amp;#39;HTB{??????????????????????????????????????????????????????????????????????}&amp;#39;  def gen_params():  p = getPrime(1024)  g = random.randint(2, p-2)  x = random.randint(2, p-2)  h = pow(g, x, p)  return (p, g, h), x  def encrypt(pubkey):  p, g, h = pubkey  m = bytes_to_long(FLAG)  y = random.randint(2, p-2)  s = pow(h, y, p)  return (g * y % p, m * s % p)  def main():  pubkey, privkey = gen_params()  c1, c2 = encrypt(pubkey)   with open(&amp;#39;data.</description>
+    </item>
+    
+    <item>
+      <title>babyarx</title>
+      <link>http://www.example.com/posts/babyarx/babyarx/</link>
+      <pubDate>Tue, 25 Oct 2022 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/babyarx/babyarx/</guid>
+      <description>For this challenge we are given a .py file and the resulting hash.
+class baby_arx():  def __init__(self, key):  assert len(key) == 64  self.state = list(key)   def b(self):  b1 = self.state[0]  b2 = self.state[1]  b1 = (b1 ^ ((b1 &amp;lt;&amp;lt; 1) | (b1 &amp;amp; 1))) &amp;amp; 0xff  b2 = (b2 ^ ((b2 &amp;gt;&amp;gt; 5) | (b2 &amp;lt;&amp;lt; 3))) &amp;amp; 0xff  b = (b1 + b2) % 256  self.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>picoctf on fliqqs</title>
+    <link>http://www.example.com/tags/picoctf/</link>
+    <description>Recent content in picoctf on fliqqs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Babygame01</title>
+      <link>http://www.example.com/posts/babygame01/babygame01/</link>
+      <pubDate>Tue, 02 May 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/babygame01/babygame01/</guid>
+      <description>Baby Game  Link to heading   For this challenge we are given a game to play
+Moving to the X in the bottom right informs us that &amp;ldquo;You win!&amp;rdquo; and exits the program. This does not give us the flag so lets have a poke around in ghidra.
+In the main function we can see we get the flag if local_aa4 is != &amp;lsquo;\0&amp;rsquo;. which is a local variable placed on the stack before a large buffer (local_aa0).</description>
+    </item>
+    
+  </channel>
+</rss>

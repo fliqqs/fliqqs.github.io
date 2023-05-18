@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DSCS 2023 on fliqqs</title>
+    <link>http://www.example.com/tags/dscs-2023/</link>
+    <description>Recent content in DSCS 2023 on fliqqs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Jan 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/dscs-2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secrets</title>
+      <link>http://www.example.com/posts/secrets/secrets/</link>
+      <pubDate>Thu, 05 Jan 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/secrets/secrets/</guid>
+      <description>For this reversing challenge we are given a binary and told it has some secrets.
+Running this application by itself resulted in a segfault. So I tried with some arguments.
+I decided to open up the application in ghidra and have a poke around. I saw that there was a red herring so I decided to chase it.
+We can see there is a string comparison with local_14 which is a string that resolves to &amp;ldquo;hello_there&amp;rdquo; so lets try that as arguments.</description>
+    </item>
+    
+  </channel>
+</rss>
