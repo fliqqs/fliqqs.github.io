@@ -79,5 +79,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>crackmes.one</title>
+      <link>http://www.example.com/tags/crackmes.one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/tags/crackmes.one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rev</title>
+      <link>http://www.example.com/tags/rev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/tags/rev/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

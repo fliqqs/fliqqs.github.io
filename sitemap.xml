@@ -57,6 +57,12 @@
   </url><url>
     <loc>http://www.example.com/categories/</loc>
   </url><url>
+    <loc>http://www.example.com/tags/crackmes.one/</loc>
+  </url><url>
+    <loc>http://www.example.com/posts/findarealkey/find_a_real_key/</loc>
+  </url><url>
+    <loc>http://www.example.com/tags/rev/</loc>
+  </url><url>
     <loc>http://www.example.com/series/</loc>
   </url>
 </urlset>
