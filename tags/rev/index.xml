@@ -5,14 +5,16 @@
     <link>http://www.example.com/tags/rev/</link>
     <description>Recent content in rev on fliqqs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://www.example.com/tags/rev/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 20 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/rev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gonna lift em all</title>
-      <link>http://www.example.com/posts/findarealkey/find_a_real_key/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Find a real key</title>
+      <link>http://www.example.com/posts/findarealkey/findrealkey/</link>
+      <pubDate>Sat, 20 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/findarealkey/find_a_real_key/</guid>
-      <description>#include &amp;lt;stdio.h&amp;gt;int main(int argc, char *argv[]) {  int local_88 [24];  local_88[0] = 0x37;  local_88[1] = 0x3f;  local_88[2] = 0x2f;  local_88[3] = 0x76;  local_88[4] = 0x2b;  local_88[5] = 0x62;  local_88[6] = 0x28;  local_88[7] = 0x21;  local_88[8] = 0x34;  local_88[9] = 0xf;  local_88[10] = 0x77;  local_88[11] = 0x62;  local_88[12] = 0x48;  local_88[13] = 0x27;  local_88[14] = 0x75;  local_88[15] = 8;  local_88[16] = 0x56;  local_88[17] = 0x6a;  local_88[18] = 0x68;  local_88[19] = 0x4e;  local_88[20] = 0x68;   int abStack40 [24];  for(int i = 0; i &amp;lt; 0x15; i++)  {  abStack40[i] = &amp;#34;sup3r_s3cr3t_k3y_1337&amp;#34;[i] - 0x22;  }  //print abStack40  for(int i = 0; i &amp;lt; 0x15; i++)  {  printf(&amp;#34;%x\n&amp;#34;, abStack40[i]);  }   //xor abstack with local_88  for(int i = 0; i &amp;lt; 0x15; i++)  {  abStack40[i] = abStack40[i] ^ local_88[i];  }  //print the values as characters  for(int i = 0; i &amp;lt; 0x15; i++)  {  printf(&amp;#34;%c&amp;#34;, abStack40[i]);  }  } </description>
+      <guid>http://www.example.com/posts/findarealkey/findrealkey/</guid>
+      <description>This was a fun reversing challenge I found on crackmes.one, I did the usual actions of running strings and strace but found nothing interesting. I then ran it and found I needed to provide a key. Randomly typing got me nowhere so I opened Ghidra.
+I saw that the application checks the length of your argument and does a comparision. But against what? Their is some proccessing that is done on the string &amp;ldquo;sup3r_s3cr3t_k3y_1337&amp;rdquo; each character is shifted by 0x22.</description>
     </item>
     
   </channel>
