@@ -6,7 +6,25 @@
     <description>Recent content in Tags on fliqqs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pwn</title>
+      <link>http://www.example.com/tags/pwn/</link>
+      <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/tags/pwn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tjctf</title>
+      <link>http://www.example.com/tags/tjctf/</link>
+      <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/tags/tjctf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>crackmes.one</title>
       <link>http://www.example.com/tags/crackmes.one/</link>
@@ -22,15 +40,6 @@
       <pubDate>Sat, 20 May 2023 16:56:10 +1000</pubDate>
       
       <guid>http://www.example.com/tags/rev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pwn</title>
-      <link>http://www.example.com/tags/pwn/</link>
-      <pubDate>Fri, 05 May 2023 16:56:10 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/pwn/</guid>
       <description></description>
     </item>
     

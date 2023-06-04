@@ -1,0 +1,8 @@
+flag is loaded is read into local 38 we have to get to that.
+
+localted at EBP_38
+
+
+we have a pointer to local_b8 whats the diff? 128
+
+what happens if we just point to be and a few bytes
