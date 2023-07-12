@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.example.com/</loc>
-    <lastmod>2023-06-17T12:00:00+10:00</lastmod>
+    <lastmod>2023-07-12T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>http://www.example.com/posts/hatgenerator/hatgenerator/</loc>
+    <lastmod>2023-07-12T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>http://www.example.com/posts/</loc>
+    <lastmod>2023-07-12T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>http://www.example.com/tags/sooctf/</loc>
+    <lastmod>2023-07-12T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>http://www.example.com/tags/</loc>
+    <lastmod>2023-07-12T16:56:10+10:00</lastmod>
   </url><url>
     <loc>http://www.example.com/posts/gdb_basics-get_ahead/gdb_basics-get_ahead/</loc>
     <lastmod>2023-06-17T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/</loc>
-    <lastmod>2023-06-17T12:00:00+10:00</lastmod>
-  </url><url>
     <loc>http://www.example.com/tags/re/</loc>
-    <lastmod>2023-06-17T12:00:00+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/</loc>
     <lastmod>2023-06-17T12:00:00+10:00</lastmod>
   </url><url>
     <loc>http://www.example.com/tags/web/</loc>

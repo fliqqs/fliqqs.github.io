@@ -6,7 +6,16 @@
     <description>Recent content in Tags on fliqqs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jun 2023 12:00:00 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOOCTF</title>
+      <link>http://www.example.com/tags/sooctf/</link>
+      <pubDate>Wed, 12 Jul 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/tags/sooctf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>RE</title>
       <link>http://www.example.com/tags/re/</link>

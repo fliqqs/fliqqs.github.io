@@ -6,7 +6,17 @@
     <description>Recent content on fliqqs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jun 2023 12:00:00 +1000</lastBuildDate><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hat generator</title>
+      <link>http://www.example.com/posts/hatgenerator/hatgenerator/</link>
+      <pubDate>Wed, 12 Jul 2023 16:56:10 +1000</pubDate>
+      
+      <guid>http://www.example.com/posts/hatgenerator/hatgenerator/</guid>
+      <description>Hat Generator  Link to heading   This was a fun pwn challenge where I learnt alot and was able to improve my pwn skills. We were given a application that asks for your hat size and then attempts to pick out a hat for you. Lets have a poke around.
+We know the gets is dangerous and me think of bufferover flows. But what to do? Looking around in Ghidra there may be a function of interest.</description>
+    </item>
+    
     <item>
       <title>GDB Basics &amp; Get Ahead</title>
       <link>http://www.example.com/posts/gdb_basics-get_ahead/gdb_basics-get_ahead/</link>
