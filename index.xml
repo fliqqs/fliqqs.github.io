@@ -1,117 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>fliqqs</title>
-    <link>http://www.example.com/</link>
-    <description>Recent content on fliqqs</description>
+    <title>fliqqs blog</title>
+    <link>https://examplesite.com/</link>
+    <description>Recent content on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 12 Jul 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 13:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hat generator</title>
-      <link>http://www.example.com/posts/hatgenerator/hatgenerator/</link>
-      <pubDate>Wed, 12 Jul 2023 16:56:10 +1000</pubDate>
+      <title>x86 Call Opcode</title>
+      <link>https://examplesite.com/posts/x86call/x86call/</link>
+      <pubDate>Fri, 21 Jul 2023 13:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/hatgenerator/hatgenerator/</guid>
-      <description>Hat Generator  Link to heading   This was a fun pwn challenge where I learnt alot and was able to improve my pwn skills. We were given a application that asks for your hat size and then attempts to pick out a hat for you. Lets have a poke around.
-We know the gets is dangerous and me think of bufferover flows. But what to do? Looking around in Ghidra there may be a function of interest.</description>
+      <guid>https://examplesite.com/posts/x86call/x86call/</guid>
+      <description>Learning about the bytes after the call opcode.</description>
     </item>
     
     <item>
-      <title>GDB Basics &amp; Get Ahead</title>
-      <link>http://www.example.com/posts/gdb_basics-get_ahead/gdb_basics-get_ahead/</link>
-      <pubDate>Sat, 17 Jun 2023 12:00:00 +1000</pubDate>
+      <title>hat generator</title>
+      <link>https://examplesite.com/posts/hatgenerator/hatgenerator/</link>
+      <pubDate>Wed, 12 Jul 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/gdb_basics-get_ahead/gdb_basics-get_ahead/</guid>
-      <description>This week I decided to pick out some easy challenges from picoctf and crackmes.one
-GDB Basics  Link to heading   This challenge was from crackmes.one and in the spirit of the challenge I only used gdb. I ran the binary with an arbritary guess.
-With my guess out the way I opened gdb and ran dissas main, I set a breakpoint after the scanf with break *main+88 call to check the cmp.</description>
+      <guid>https://examplesite.com/posts/hatgenerator/hatgenerator/</guid>
+      <description>A pwn challenge from SOOCTF where I learn to write over EIP.</description>
     </item>
     
     <item>
       <title>flipout</title>
-      <link>http://www.example.com/posts/flipout/flipout/</link>
+      <link>https://examplesite.com/posts/flipout/flipout/</link>
       <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/flipout/flipout/</guid>
-      <description>This was fun challenge that was apart of tjctf. We are given a server to connect to using netcat and a local copy of the binary. When connecting we are prompted to provide an input I though it might be a string format attack but had no luck.
-So I fired it up in ghidra and had a poke around.
-The main takeaway from the main function is that the binary looks for a flag and loads 0x19 bytes into local_38.</description>
+      <guid>https://examplesite.com/posts/flipout/flipout/</guid>
+      <description>A reverse engineering challenge from tjctf.</description>
     </item>
     
     <item>
       <title>Find a real key</title>
-      <link>http://www.example.com/posts/findarealkey/findrealkey/</link>
+      <link>https://examplesite.com/posts/findarealkey/findrealkey/</link>
       <pubDate>Sat, 20 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/findarealkey/findrealkey/</guid>
-      <description>This was a fun reversing challenge I found on crackmes.one, I did the usual actions of running strings and strace but found nothing interesting. I then ran it and found I needed to provide a key. Randomly typing got me nowhere so I opened Ghidra.
-I saw that the application checks the length of your argument and does a comparision. But against what? Their is some proccessing that is done on the string &amp;ldquo;sup3r_s3cr3t_k3y_1337&amp;rdquo; each character is shifted by 0x22.</description>
+      <guid>https://examplesite.com/posts/findarealkey/findrealkey/</guid>
+      <description>A fun reversing challenge from crackmes.one</description>
     </item>
     
     <item>
       <title>Turtle Shell</title>
-      <link>http://www.example.com/posts/turtleshell/turtleshell/</link>
+      <link>https://examplesite.com/posts/turtleshell/turtleshell/</link>
       <pubDate>Fri, 05 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/turtleshell/turtleshell/</guid>
-      <description>Turtle Shell  Link to heading   For this challenge we are told to coerce a turtle to come out of its shell.
-Poking around in ghidra we can see that our user input is taken and put in a buffer strstr is done against our input to check if bad is inside it. Then what is in the buffer is executed.
-This looks a little strange so I decided to have a poke around using gdb.</description>
+      <guid>https://examplesite.com/posts/turtleshell/turtleshell/</guid>
+      <description>Getting a turtle to come out of its shell with pwn.</description>
     </item>
     
     <item>
       <title>Babygame01</title>
-      <link>http://www.example.com/posts/babygame01/babygame01/</link>
+      <link>https://examplesite.com/posts/babygame01/babygame01/</link>
       <pubDate>Tue, 02 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/babygame01/babygame01/</guid>
-      <description>Baby Game  Link to heading   For this challenge we are given a game to play
-Moving to the X in the bottom right informs us that &amp;ldquo;You win!&amp;rdquo; and exits the program. This does not give us the flag so lets have a poke around in ghidra.
-In the main function we can see we get the flag if local_aa4 is != &amp;lsquo;\0&amp;rsquo;. which is a local variable placed on the stack before a large buffer (local_aa0).</description>
+      <guid>https://examplesite.com/posts/babygame01/babygame01/</guid>
+      <description>A reverse engineering challenge thats a game!.</description>
     </item>
     
     <item>
       <title>Secrets</title>
-      <link>http://www.example.com/posts/secrets/secrets/</link>
+      <link>https://examplesite.com/posts/secrets/secrets/</link>
       <pubDate>Thu, 05 Jan 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/secrets/secrets/</guid>
-      <description>For this reversing challenge we are given a binary and told it has some secrets.
-Running this application by itself resulted in a segfault. So I tried with some arguments.
-I decided to open up the application in ghidra and have a poke around. I saw that there was a red herring so I decided to chase it.
-We can see there is a string comparison with local_14 which is a string that resolves to &amp;ldquo;hello_there&amp;rdquo; so lets try that as arguments.</description>
+      <guid>https://examplesite.com/posts/secrets/secrets/</guid>
+      <description>Using GDB &amp;amp; gef to call functions.</description>
     </item>
     
     <item>
       <title>Evaluation Deck</title>
-      <link>http://www.example.com/posts/evaluation_deck/evaluation_deck/</link>
+      <link>https://examplesite.com/posts/evaluation_deck/evaluation_deck/</link>
       <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/evaluation_deck/evaluation_deck/</guid>
-      <description>For this challenge I forget to take screenshots during the event so I am running it locally for this writeup. We are given the address of a website and the source code which if a flask web server.
-After playing around with the card game for a bit I decided to dig around through the source code and see what stood out. After poking around I saw that an api was exposed, I took my a while to reach it as I forgot to add /api/ before trying to access the endpoints.</description>
+      <guid>https://examplesite.com/posts/evaluation_deck/evaluation_deck/</guid>
+      <description>A web app that uses exec what could go wrong!. 😨</description>
     </item>
     
     <item>
       <title>Gonna lift em all</title>
-      <link>http://www.example.com/posts/gonna_lift_em_all/gonna_lift_em_all/</link>
+      <link>https://examplesite.com/posts/gonna_lift_em_all/gonna_lift_em_all/</link>
       <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/gonna_lift_em_all/gonna_lift_em_all/</guid>
-      <description>For this challenge we are given two files.
-chall.py
-from Crypto.Util.number import bytes_to_long, getPrime import random  FLAG = b&amp;#39;HTB{??????????????????????????????????????????????????????????????????????}&amp;#39;  def gen_params():  p = getPrime(1024)  g = random.randint(2, p-2)  x = random.randint(2, p-2)  h = pow(g, x, p)  return (p, g, h), x  def encrypt(pubkey):  p, g, h = pubkey  m = bytes_to_long(FLAG)  y = random.randint(2, p-2)  s = pow(h, y, p)  return (g * y % p, m * s % p)  def main():  pubkey, privkey = gen_params()  c1, c2 = encrypt(pubkey)   with open(&amp;#39;data.</description>
+      <guid>https://examplesite.com/posts/gonna_lift_em_all/gonna_lift_em_all/</guid>
+      <description>A crypto challenge from HTB ctf.</description>
     </item>
     
     <item>
       <title>babyarx</title>
-      <link>http://www.example.com/posts/babyarx/babyarx/</link>
+      <link>https://examplesite.com/posts/babyarx/babyarx/</link>
       <pubDate>Tue, 25 Oct 2022 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/babyarx/babyarx/</guid>
-      <description>For this challenge we are given a .py file and the resulting hash.
-class baby_arx():  def __init__(self, key):  assert len(key) == 64  self.state = list(key)   def b(self):  b1 = self.state[0]  b2 = self.state[1]  b1 = (b1 ^ ((b1 &amp;lt;&amp;lt; 1) | (b1 &amp;amp; 1))) &amp;amp; 0xff  b2 = (b2 ^ ((b2 &amp;gt;&amp;gt; 5) | (b2 &amp;lt;&amp;lt; 3))) &amp;amp; 0xff  b = (b1 + b2) % 256  self.</description>
+      <guid>https://examplesite.com/posts/babyarx/babyarx/</guid>
+      <description>Cryptography challenge from ductf2022</description>
     </item>
     
   </channel>

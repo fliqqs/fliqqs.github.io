@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>RE on fliqqs</title>
-    <link>http://www.example.com/tags/re/</link>
-    <description>Recent content in RE on fliqqs</description>
+    <title>RE on fliqqs blog</title>
+    <link>https://examplesite.com/tags/re/</link>
+    <description>Recent content in RE on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 17 Jun 2023 12:00:00 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/re/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/tags/re/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GDB Basics &amp; Get Ahead</title>
-      <link>http://www.example.com/posts/gdb_basics-get_ahead/gdb_basics-get_ahead/</link>
-      <pubDate>Sat, 17 Jun 2023 12:00:00 +1000</pubDate>
+      <title>flipout</title>
+      <link>https://examplesite.com/posts/flipout/flipout/</link>
+      <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/gdb_basics-get_ahead/gdb_basics-get_ahead/</guid>
-      <description>This week I decided to pick out some easy challenges from picoctf and crackmes.one
-GDB Basics  Link to heading   This challenge was from crackmes.one and in the spirit of the challenge I only used gdb. I ran the binary with an arbritary guess.
-With my guess out the way I opened gdb and ran dissas main, I set a breakpoint after the scanf with break *main+88 call to check the cmp.</description>
+      <guid>https://examplesite.com/posts/flipout/flipout/</guid>
+      <description>A reverse engineering challenge from tjctf.</description>
     </item>
     
   </channel>

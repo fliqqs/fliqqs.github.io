@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>rev on fliqqs</title>
-    <link>http://www.example.com/tags/rev/</link>
-    <description>Recent content in rev on fliqqs</description>
+    <title>rev on fliqqs blog</title>
+    <link>https://examplesite.com/tags/rev/</link>
+    <description>Recent content in rev on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 20 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/rev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/tags/rev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Find a real key</title>
-      <link>http://www.example.com/posts/findarealkey/findrealkey/</link>
+      <link>https://examplesite.com/posts/findarealkey/findrealkey/</link>
       <pubDate>Sat, 20 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/findarealkey/findrealkey/</guid>
-      <description>This was a fun reversing challenge I found on crackmes.one, I did the usual actions of running strings and strace but found nothing interesting. I then ran it and found I needed to provide a key. Randomly typing got me nowhere so I opened Ghidra.
-I saw that the application checks the length of your argument and does a comparision. But against what? Their is some proccessing that is done on the string &amp;ldquo;sup3r_s3cr3t_k3y_1337&amp;rdquo; each character is shifted by 0x22.</description>
+      <guid>https://examplesite.com/posts/findarealkey/findrealkey/</guid>
+      <description>A fun reversing challenge from crackmes.one</description>
+    </item>
+    
+    <item>
+      <title>Babygame01</title>
+      <link>https://examplesite.com/posts/babygame01/babygame01/</link>
+      <pubDate>Tue, 02 May 2023 16:56:10 +1000</pubDate>
+      
+      <guid>https://examplesite.com/posts/babygame01/babygame01/</guid>
+      <description>A reverse engineering challenge thats a game!.</description>
+    </item>
+    
+    <item>
+      <title>Secrets</title>
+      <link>https://examplesite.com/posts/secrets/secrets/</link>
+      <pubDate>Thu, 05 Jan 2023 16:56:10 +1000</pubDate>
+      
+      <guid>https://examplesite.com/posts/secrets/secrets/</guid>
+      <description>Using GDB &amp;amp; gef to call functions.</description>
     </item>
     
   </channel>

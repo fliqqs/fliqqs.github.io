@@ -1,126 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on fliqqs</title>
-    <link>http://www.example.com/tags/</link>
-    <description>Recent content in Tags on fliqqs</description>
+    <title>Tags on fliqqs blog</title>
+    <link>https://examplesite.com/tags/</link>
+    <description>Recent content in Tags on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 12 Jul 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 13:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SOOCTF</title>
-      <link>http://www.example.com/tags/sooctf/</link>
+      <title>general</title>
+      <link>https://examplesite.com/tags/general/</link>
+      <pubDate>Fri, 21 Jul 2023 13:56:10 +1000</pubDate>
+      
+      <guid>https://examplesite.com/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ctf</title>
+      <link>https://examplesite.com/tags/ctf/</link>
       <pubDate>Wed, 12 Jul 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/tags/sooctf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RE</title>
-      <link>http://www.example.com/tags/re/</link>
-      <pubDate>Sat, 17 Jun 2023 12:00:00 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/re/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>http://www.example.com/tags/web/</link>
-      <pubDate>Sat, 17 Jun 2023 12:00:00 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/web/</guid>
+      <guid>https://examplesite.com/tags/ctf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pwn</title>
-      <link>http://www.example.com/tags/pwn/</link>
-      <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
+      <link>https://examplesite.com/tags/pwn/</link>
+      <pubDate>Wed, 12 Jul 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/tags/pwn/</guid>
+      <guid>https://examplesite.com/tags/pwn/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tjctf</title>
-      <link>http://www.example.com/tags/tjctf/</link>
+      <title>RE</title>
+      <link>https://examplesite.com/tags/re/</link>
       <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/tags/tjctf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>crackmes.one</title>
-      <link>http://www.example.com/tags/crackmes.one/</link>
-      <pubDate>Sat, 20 May 2023 16:56:10 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/crackmes.one/</guid>
+      <guid>https://examplesite.com/tags/re/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rev</title>
-      <link>http://www.example.com/tags/rev/</link>
+      <link>https://examplesite.com/tags/rev/</link>
       <pubDate>Sat, 20 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/tags/rev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SDCTF</title>
-      <link>http://www.example.com/tags/sdctf/</link>
-      <pubDate>Fri, 05 May 2023 16:56:10 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/sdctf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>picoctf</title>
-      <link>http://www.example.com/tags/picoctf/</link>
-      <pubDate>Tue, 02 May 2023 16:56:10 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/picoctf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DSCS 2023</title>
-      <link>http://www.example.com/tags/dscs-2023/</link>
-      <pubDate>Thu, 05 Jan 2023 16:56:10 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/dscs-2023/</guid>
+      <guid>https://examplesite.com/tags/rev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>crypto</title>
-      <link>http://www.example.com/tags/crypto/</link>
+      <link>https://examplesite.com/tags/crypto/</link>
       <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/tags/crypto/</guid>
+      <guid>https://examplesite.com/tags/crypto/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hack the boo</title>
-      <link>http://www.example.com/tags/hack-the-boo/</link>
+      <title>web</title>
+      <link>https://examplesite.com/tags/web/</link>
       <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/tags/hack-the-boo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ductf2022</title>
-      <link>http://www.example.com/tags/ductf2022/</link>
-      <pubDate>Tue, 25 Oct 2022 16:56:10 +1000</pubDate>
-      
-      <guid>http://www.example.com/tags/ductf2022/</guid>
+      <guid>https://examplesite.com/tags/web/</guid>
       <description></description>
     </item>
     

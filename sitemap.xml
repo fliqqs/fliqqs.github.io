@@ -2,88 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.example.com/</loc>
+    <loc>https://examplesite.com/</loc>
+    <lastmod>2023-07-21T13:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://examplesite.com/tags/general/</loc>
+    <lastmod>2023-07-21T13:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://examplesite.com/posts/</loc>
+    <lastmod>2023-07-21T13:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://examplesite.com/tags/</loc>
+    <lastmod>2023-07-21T13:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://examplesite.com/posts/x86call/x86call/</loc>
+    <lastmod>2023-07-21T13:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://examplesite.com/tags/ctf/</loc>
     <lastmod>2023-07-12T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/hatgenerator/hatgenerator/</loc>
+    <loc>https://examplesite.com/posts/hatgenerator/hatgenerator/</loc>
     <lastmod>2023-07-12T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/</loc>
+    <loc>https://examplesite.com/tags/pwn/</loc>
     <lastmod>2023-07-12T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/sooctf/</loc>
-    <lastmod>2023-07-12T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/</loc>
-    <lastmod>2023-07-12T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/posts/gdb_basics-get_ahead/gdb_basics-get_ahead/</loc>
-    <lastmod>2023-06-17T12:00:00+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/re/</loc>
-    <lastmod>2023-06-17T12:00:00+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/web/</loc>
-    <lastmod>2023-06-17T12:00:00+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/posts/flipout/flipout/</loc>
+    <loc>https://examplesite.com/posts/flipout/flipout/</loc>
     <lastmod>2023-05-31T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/pwn/</loc>
+    <loc>https://examplesite.com/tags/re/</loc>
     <lastmod>2023-05-31T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/tjctf/</loc>
-    <lastmod>2023-05-31T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/crackmes.one/</loc>
+    <loc>https://examplesite.com/posts/findarealkey/findrealkey/</loc>
     <lastmod>2023-05-20T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/findarealkey/findrealkey/</loc>
+    <loc>https://examplesite.com/tags/rev/</loc>
     <lastmod>2023-05-20T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/rev/</loc>
-    <lastmod>2023-05-20T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/sdctf/</loc>
+    <loc>https://examplesite.com/posts/turtleshell/turtleshell/</loc>
     <lastmod>2023-05-05T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/turtleshell/turtleshell/</loc>
-    <lastmod>2023-05-05T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/posts/babygame01/babygame01/</loc>
+    <loc>https://examplesite.com/posts/babygame01/babygame01/</loc>
     <lastmod>2023-05-02T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/picoctf/</loc>
-    <lastmod>2023-05-02T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/dscs-2023/</loc>
+    <loc>https://examplesite.com/posts/secrets/secrets/</loc>
     <lastmod>2023-01-05T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/secrets/secrets/</loc>
-    <lastmod>2023-01-05T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/crypto/</loc>
+    <loc>https://examplesite.com/tags/crypto/</loc>
     <lastmod>2022-11-05T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/evaluation_deck/evaluation_deck/</loc>
+    <loc>https://examplesite.com/posts/evaluation_deck/evaluation_deck/</loc>
     <lastmod>2022-11-05T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/gonna_lift_em_all/gonna_lift_em_all/</loc>
+    <loc>https://examplesite.com/posts/gonna_lift_em_all/gonna_lift_em_all/</loc>
     <lastmod>2022-11-05T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/hack-the-boo/</loc>
+    <loc>https://examplesite.com/tags/web/</loc>
     <lastmod>2022-11-05T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/posts/babyarx/babyarx/</loc>
+    <loc>https://examplesite.com/posts/babyarx/babyarx/</loc>
     <lastmod>2022-10-25T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/ductf2022/</loc>
-    <lastmod>2022-10-25T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/authors/</loc>
-  </url><url>
-    <loc>http://www.example.com/categories/</loc>
-  </url><url>
-    <loc>http://www.example.com/series/</loc>
+    <loc>https://examplesite.com/categories/</loc>
   </url>
 </urlset>

@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pwn on fliqqs</title>
-    <link>http://www.example.com/tags/pwn/</link>
-    <description>Recent content in pwn on fliqqs</description>
+    <title>pwn on fliqqs blog</title>
+    <link>https://examplesite.com/tags/pwn/</link>
+    <description>Recent content in pwn on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 31 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="http://www.example.com/tags/pwn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 16:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/tags/pwn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>flipout</title>
-      <link>http://www.example.com/posts/flipout/flipout/</link>
-      <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
+      <title>hat generator</title>
+      <link>https://examplesite.com/posts/hatgenerator/hatgenerator/</link>
+      <pubDate>Wed, 12 Jul 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/flipout/flipout/</guid>
-      <description>This was fun challenge that was apart of tjctf. We are given a server to connect to using netcat and a local copy of the binary. When connecting we are prompted to provide an input I though it might be a string format attack but had no luck.
-So I fired it up in ghidra and had a poke around.
-The main takeaway from the main function is that the binary looks for a flag and loads 0x19 bytes into local_38.</description>
+      <guid>https://examplesite.com/posts/hatgenerator/hatgenerator/</guid>
+      <description>A pwn challenge from SOOCTF where I learn to write over EIP.</description>
     </item>
     
     <item>
       <title>Turtle Shell</title>
-      <link>http://www.example.com/posts/turtleshell/turtleshell/</link>
+      <link>https://examplesite.com/posts/turtleshell/turtleshell/</link>
       <pubDate>Fri, 05 May 2023 16:56:10 +1000</pubDate>
       
-      <guid>http://www.example.com/posts/turtleshell/turtleshell/</guid>
-      <description>Turtle Shell  Link to heading   For this challenge we are told to coerce a turtle to come out of its shell.
-Poking around in ghidra we can see that our user input is taken and put in a buffer strstr is done against our input to check if bad is inside it. Then what is in the buffer is executed.
-This looks a little strange so I decided to have a poke around using gdb.</description>
+      <guid>https://examplesite.com/posts/turtleshell/turtleshell/</guid>
+      <description>Getting a turtle to come out of its shell with pwn.</description>
     </item>
     
   </channel>

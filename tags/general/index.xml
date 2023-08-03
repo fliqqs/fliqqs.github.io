@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>general on fliqqs blog</title>
+    <link>https://examplesite.com/tags/general/</link>
+    <description>Recent content in general on fliqqs blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 21 Jul 2023 13:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>x86 Call Opcode</title>
+      <link>https://examplesite.com/posts/x86call/x86call/</link>
+      <pubDate>Fri, 21 Jul 2023 13:56:10 +1000</pubDate>
+      
+      <guid>https://examplesite.com/posts/x86call/x86call/</guid>
+      <description>Learning about the bytes after the call opcode.</description>
+    </item>
+    
+  </channel>
+</rss>
