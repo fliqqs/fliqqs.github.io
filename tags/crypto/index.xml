@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>crypto on fliqqs blog</title>
-    <link>https://examplesite.com/tags/crypto/</link>
+    <link>https://fliqqs.github.io/tags/crypto/</link>
     <description>Recent content in crypto on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Nov 2022 16:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gonna lift em all</title>
-      <link>https://examplesite.com/posts/gonna_lift_em_all/gonna_lift_em_all/</link>
+      <link>https://fliqqs.github.io/posts/gonna_lift_em_all/gonna_lift_em_all/</link>
       <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
       
-      <guid>https://examplesite.com/posts/gonna_lift_em_all/gonna_lift_em_all/</guid>
+      <guid>https://fliqqs.github.io/posts/gonna_lift_em_all/gonna_lift_em_all/</guid>
       <description>A crypto challenge from HTB ctf.</description>
     </item>
     
     <item>
       <title>babyarx</title>
-      <link>https://examplesite.com/posts/babyarx/babyarx/</link>
+      <link>https://fliqqs.github.io/posts/babyarx/babyarx/</link>
       <pubDate>Tue, 25 Oct 2022 16:56:10 +1000</pubDate>
       
-      <guid>https://examplesite.com/posts/babyarx/babyarx/</guid>
+      <guid>https://fliqqs.github.io/posts/babyarx/babyarx/</guid>
       <description>Cryptography challenge from ductf2022</description>
     </item>
     

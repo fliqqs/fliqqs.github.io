@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>web on fliqqs blog</title>
-    <link>https://examplesite.com/tags/web/</link>
+    <link>https://fliqqs.github.io/tags/web/</link>
     <description>Recent content in web on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Nov 2022 16:56:10 +1000</lastBuildDate><atom:link href="https://examplesite.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evaluation Deck</title>
-      <link>https://examplesite.com/posts/evaluation_deck/evaluation_deck/</link>
+      <link>https://fliqqs.github.io/posts/evaluation_deck/evaluation_deck/</link>
       <pubDate>Sat, 05 Nov 2022 16:56:10 +1000</pubDate>
       
-      <guid>https://examplesite.com/posts/evaluation_deck/evaluation_deck/</guid>
+      <guid>https://fliqqs.github.io/posts/evaluation_deck/evaluation_deck/</guid>
       <description>A web app that uses exec what could go wrong!. 😨</description>
     </item>
     
