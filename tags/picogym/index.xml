@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>picogym on fliqqs blog</title>
+    <link>https://fliqqs.github.io/tags/picogym/</link>
+    <description>Recent content in picogym on fliqqs blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 18 Aug 2023 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/picogym/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>picogym writeups</title>
+      <link>https://fliqqs.github.io/posts/pico_gym/pico_gym/</link>
+      <pubDate>Fri, 18 Aug 2023 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/pico_gym/pico_gym/</guid>
+      <description>picogym writeups</description>
+    </item>
+    
+  </channel>
+</rss>
