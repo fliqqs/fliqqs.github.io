@@ -5,7 +5,16 @@
     <link>https://fliqqs.github.io/</link>
     <description>Recent content on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Sep 2023 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Sep 2023 08:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AU Cyber Skills Challenge</title>
+      <link>https://fliqqs.github.io/posts/cyber_skills_challenge/cyber_skills_challenge/</link>
+      <pubDate>Thu, 28 Sep 2023 08:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/cyber_skills_challenge/cyber_skills_challenge/</guid>
+      <description>A secure blogging platform</description>
+    </item>
+    
     <item>
       <title>DUCTF23</title>
       <link>https://fliqqs.github.io/posts/ductf23/ductf23/</link>
