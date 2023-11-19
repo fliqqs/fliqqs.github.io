@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>graphics on fliqqs blog</title>
+    <link>https://fliqqs.github.io/tags/graphics/</link>
+    <description>Recent content in graphics on fliqqs blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Nov 2023 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust Raycaster</title>
+      <link>https://fliqqs.github.io/posts/rust_raycaster/rust_raycaster/</link>
+      <pubDate>Mon, 06 Nov 2023 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/rust_raycaster/rust_raycaster/</guid>
+      <description>making a raycaster in rust to learn computer graphics</description>
+    </item>
+    
+  </channel>
+</rss>
