@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>programming on fliqqs blog</title>
+    <link>https://fliqqs.github.io/tags/programming/</link>
+    <description>Recent content in programming on fliqqs blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 10 Jan 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating FiveM workflow</title>
+      <link>https://fliqqs.github.io/posts/automating_fivem_dev/automating_fivem_dev/</link>
+      <pubDate>Wed, 10 Jan 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/automating_fivem_dev/automating_fivem_dev/</guid>
+      <description>Making my fivem dev workflow better</description>
+    </item>
+    
+  </channel>
+</rss>
