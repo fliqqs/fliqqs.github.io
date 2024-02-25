@@ -5,7 +5,16 @@
     <link>https://fliqqs.github.io/posts/</link>
     <description>Recent content in Posts on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Jan 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Feb 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LA CTF</title>
+      <link>https://fliqqs.github.io/posts/lactf/lactf/</link>
+      <pubDate>Sat, 24 Feb 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/lactf/lactf/</guid>
+      <description>LACTF solved some pwn and rev challenges.</description>
+    </item>
+    
     <item>
       <title>Automating FiveM workflow</title>
       <link>https://fliqqs.github.io/posts/automating_fivem_dev/automating_fivem_dev/</link>

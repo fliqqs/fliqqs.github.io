@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://fliqqs.github.io/tags/ctf/</loc>
+    <lastmod>2024-02-24T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://fliqqs.github.io/</loc>
+    <lastmod>2024-02-24T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://fliqqs.github.io/posts/lactf/lactf/</loc>
+    <lastmod>2024-02-24T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://fliqqs.github.io/posts/</loc>
+    <lastmod>2024-02-24T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://fliqqs.github.io/tags/</loc>
+    <lastmod>2024-02-24T16:56:10+10:00</lastmod>
+  </url><url>
     <loc>https://fliqqs.github.io/posts/automating_fivem_dev/automating_fivem_dev/</loc>
     <lastmod>2024-01-10T16:56:10+10:00</lastmod>
   </url><url>
-    <loc>https://fliqqs.github.io/</loc>
-    <lastmod>2024-01-10T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>https://fliqqs.github.io/posts/</loc>
-    <lastmod>2024-01-10T16:56:10+10:00</lastmod>
-  </url><url>
     <loc>https://fliqqs.github.io/tags/programming/</loc>
-    <lastmod>2024-01-10T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>https://fliqqs.github.io/tags/</loc>
     <lastmod>2024-01-10T16:56:10+10:00</lastmod>
   </url><url>
     <loc>https://fliqqs.github.io/tags/graphics/</loc>
@@ -25,9 +31,6 @@
   </url><url>
     <loc>https://fliqqs.github.io/posts/rust_raycaster/rust_raycaster/</loc>
     <lastmod>2023-11-06T16:56:10+10:00</lastmod>
-  </url><url>
-    <loc>https://fliqqs.github.io/tags/ctf/</loc>
-    <lastmod>2023-11-05T16:56:10+10:00</lastmod>
   </url><url>
     <loc>https://fliqqs.github.io/posts/pointer_overflow/pointer_overflow/</loc>
     <lastmod>2023-11-05T16:56:10+10:00</lastmod>
