@@ -5,7 +5,16 @@
     <link>https://fliqqs.github.io/tags/ctf/</link>
     <description>Recent content in ctf on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Apr 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jun 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>byuctf</title>
+      <link>https://fliqqs.github.io/posts/byuctf/byuctf/</link>
+      <pubDate>Sat, 08 Jun 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/byuctf/byuctf/</guid>
+      <description>Spending my weekend stuck on one pwn challenge.</description>
+    </item>
+    
     <item>
       <title>Picoctf 2024</title>
       <link>https://fliqqs.github.io/posts/picoctf_2024/picoctf_2024/</link>
