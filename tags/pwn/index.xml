@@ -5,7 +5,16 @@
     <link>https://fliqqs.github.io/tags/pwn/</link>
     <description>Recent content in pwn on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Jun 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/pwn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jul 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/pwn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bsides 2024</title>
+      <link>https://fliqqs.github.io/posts/bsides24/bsides24/</link>
+      <pubDate>Sat, 13 Jul 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/bsides24/bsides24/</guid>
+      <description>Bsides 2024.</description>
+    </item>
+    
     <item>
       <title>byuctf</title>
       <link>https://fliqqs.github.io/posts/byuctf/byuctf/</link>

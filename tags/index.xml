@@ -5,11 +5,11 @@
     <link>https://fliqqs.github.io/tags/</link>
     <description>Recent content in Tags on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Jun 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jul 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ctf</title>
       <link>https://fliqqs.github.io/tags/ctf/</link>
-      <pubDate>Sat, 08 Jun 2024 16:56:10 +1000</pubDate>
+      <pubDate>Sat, 13 Jul 2024 16:56:10 +1000</pubDate>
       
       <guid>https://fliqqs.github.io/tags/ctf/</guid>
       <description></description>
@@ -18,9 +18,18 @@
     <item>
       <title>pwn</title>
       <link>https://fliqqs.github.io/tags/pwn/</link>
-      <pubDate>Sat, 08 Jun 2024 16:56:10 +1000</pubDate>
+      <pubDate>Sat, 13 Jul 2024 16:56:10 +1000</pubDate>
       
       <guid>https://fliqqs.github.io/tags/pwn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://fliqqs.github.io/tags/web/</link>
+      <pubDate>Sat, 13 Jul 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/tags/web/</guid>
       <description></description>
     </item>
     
@@ -48,15 +57,6 @@
       <pubDate>Mon, 06 Nov 2023 16:56:10 +1000</pubDate>
       
       <guid>https://fliqqs.github.io/tags/rust/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://fliqqs.github.io/tags/web/</link>
-      <pubDate>Thu, 28 Sep 2023 08:56:10 +1000</pubDate>
-      
-      <guid>https://fliqqs.github.io/tags/web/</guid>
       <description></description>
     </item>
     
