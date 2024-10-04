@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fliqqs.github.io/posts/bsides24/bsides24/</loc>
-    <lastmod>2024-07-13T16:56:10+10:00</lastmod>
-  </url><url>
     <loc>https://fliqqs.github.io/tags/ctf/</loc>
-    <lastmod>2024-07-13T16:56:10+10:00</lastmod>
+    <lastmod>2024-10-03T16:56:10+10:00</lastmod>
   </url><url>
     <loc>https://fliqqs.github.io/</loc>
-    <lastmod>2024-07-13T16:56:10+10:00</lastmod>
+    <lastmod>2024-10-03T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://fliqqs.github.io/posts/patriot_ctf/patriot_ctf/</loc>
+    <lastmod>2024-10-03T16:56:10+10:00</lastmod>
   </url><url>
     <loc>https://fliqqs.github.io/posts/</loc>
-    <lastmod>2024-07-13T16:56:10+10:00</lastmod>
+    <lastmod>2024-10-03T16:56:10+10:00</lastmod>
   </url><url>
     <loc>https://fliqqs.github.io/tags/pwn/</loc>
-    <lastmod>2024-07-13T16:56:10+10:00</lastmod>
+    <lastmod>2024-10-03T16:56:10+10:00</lastmod>
   </url><url>
     <loc>https://fliqqs.github.io/tags/</loc>
+    <lastmod>2024-10-03T16:56:10+10:00</lastmod>
+  </url><url>
+    <loc>https://fliqqs.github.io/posts/bsides24/bsides24/</loc>
     <lastmod>2024-07-13T16:56:10+10:00</lastmod>
   </url><url>
     <loc>https://fliqqs.github.io/tags/web/</loc>

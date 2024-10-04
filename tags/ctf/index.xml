@@ -5,7 +5,16 @@
     <link>https://fliqqs.github.io/tags/ctf/</link>
     <description>Recent content in ctf on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 13 Jul 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>patriot ctf 2024</title>
+      <link>https://fliqqs.github.io/posts/patriot_ctf/patriot_ctf/</link>
+      <pubDate>Thu, 03 Oct 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/patriot_ctf/patriot_ctf/</guid>
+      <description>Getting pwn&amp;rsquo;ed by a n00b challenge.</description>
+    </item>
+    
     <item>
       <title>bsides 2024</title>
       <link>https://fliqqs.github.io/posts/bsides24/bsides24/</link>
