@@ -5,7 +5,16 @@
     <link>https://fliqqs.github.io/tags/ctf/</link>
     <description>Recent content in ctf on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Oct 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2024 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>snake ctf 2024</title>
+      <link>https://fliqqs.github.io/posts/snakectf/snakectf/</link>
+      <pubDate>Fri, 25 Oct 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/snakectf/snakectf/</guid>
+      <description>Learning more about ROP Gadgets.</description>
+    </item>
+    
     <item>
       <title>patriot ctf 2024</title>
       <link>https://fliqqs.github.io/posts/patriot_ctf/patriot_ctf/</link>
