@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>RE on fliqqs blog</title>
+    <title>re on fliqqs blog</title>
     <link>https://fliqqs.github.io/tags/re/</link>
-    <description>Recent content in RE on fliqqs blog</description>
+    <description>Recent content in re on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 May 2023 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/re/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jul 2025 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/re/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bsides 25 RE challenges</title>
+      <link>https://fliqqs.github.io/posts/bsides25/bsides25/</link>
+      <pubDate>Sun, 13 Jul 2025 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/bsides25/bsides25/</guid>
+      <description>simple RE hard tools</description>
+    </item>
+    
     <item>
       <title>flipout</title>
       <link>https://fliqqs.github.io/posts/flipout/flipout/</link>

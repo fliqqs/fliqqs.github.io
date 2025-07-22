@@ -5,7 +5,25 @@
     <link>https://fliqqs.github.io/tags/</link>
     <description>Recent content in Tags on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Mar 2025 11:00:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jul 2025 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ctf</title>
+      <link>https://fliqqs.github.io/tags/ctf/</link>
+      <pubDate>Sun, 13 Jul 2025 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/tags/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>re</title>
+      <link>https://fliqqs.github.io/tags/re/</link>
+      <pubDate>Sun, 13 Jul 2025 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/tags/re/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>learning</title>
       <link>https://fliqqs.github.io/tags/learning/</link>
@@ -16,20 +34,20 @@
     </item>
     
     <item>
-      <title>ctf</title>
-      <link>https://fliqqs.github.io/tags/ctf/</link>
-      <pubDate>Fri, 17 Jan 2025 16:56:10 +1000</pubDate>
-      
-      <guid>https://fliqqs.github.io/tags/ctf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pwn</title>
       <link>https://fliqqs.github.io/tags/pwn/</link>
       <pubDate>Fri, 17 Jan 2025 16:56:10 +1000</pubDate>
       
       <guid>https://fliqqs.github.io/tags/pwn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://fliqqs.github.io/tags/web/</link>
+      <pubDate>Sat, 13 Jul 2024 16:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/tags/web/</guid>
       <description></description>
     </item>
     
@@ -61,15 +79,6 @@
     </item>
     
     <item>
-      <title>web</title>
-      <link>https://fliqqs.github.io/tags/web/</link>
-      <pubDate>Thu, 28 Sep 2023 08:56:10 +1000</pubDate>
-      
-      <guid>https://fliqqs.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ductf</title>
       <link>https://fliqqs.github.io/tags/ductf/</link>
       <pubDate>Fri, 08 Sep 2023 16:56:10 +1000</pubDate>
@@ -93,15 +102,6 @@
       <pubDate>Fri, 21 Jul 2023 13:56:10 +1000</pubDate>
       
       <guid>https://fliqqs.github.io/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RE</title>
-      <link>https://fliqqs.github.io/tags/re/</link>
-      <pubDate>Wed, 31 May 2023 16:56:10 +1000</pubDate>
-      
-      <guid>https://fliqqs.github.io/tags/re/</guid>
       <description></description>
     </item>
     
