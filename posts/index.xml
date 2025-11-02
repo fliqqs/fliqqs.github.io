@@ -5,7 +5,16 @@
     <link>https://fliqqs.github.io/posts/</link>
     <description>Recent content in Posts on fliqqs blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Jul 2025 16:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Nov 2025 12:56:10 +1000</lastBuildDate><atom:link href="https://fliqqs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kernel multicast and IGMP</title>
+      <link>https://fliqqs.github.io/posts/kernel_multicast/kernel_multicast/</link>
+      <pubDate>Sat, 01 Nov 2025 12:56:10 +1000</pubDate>
+      
+      <guid>https://fliqqs.github.io/posts/kernel_multicast/kernel_multicast/</guid>
+      <description>lessons learned about contributing to Holo routing</description>
+    </item>
+    
     <item>
       <title>bsides 25 RE challenges</title>
       <link>https://fliqqs.github.io/posts/bsides25/bsides25/</link>
