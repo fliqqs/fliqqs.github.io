@@ -3,7 +3,7 @@ title: "DUCTF23"
 date: 2023-09-08T16:56:10+10:00
 draft: false
 toc: false
-Summary: "DUCTF23 a few challenges"
+Summary: "DUCTF23"
 images:
 tags:
   - pwn
@@ -56,8 +56,7 @@ int main() {
 ```
 So we have to enter a index that we log us in as the admin, however we are limited to a bound of `NUM_USERS - 1`. Interestingly `read_int_lower_than` returns an int. But when called is cast to an unsigned short. Which can hold values of 0 to 65,535. We have to find a number that wraps around to 8 and is less than 7. With a little trial and error I found a number.
 
-![checksec](/images/DUCTF23/downunderflow.png)
-
+<img src="/images/ductf23/downunderflow.png" alt="checksec" class="img-medium">
 
 
 ### Jail
@@ -109,7 +108,7 @@ bool main(void)
 
 We are asked for an escape plan and the stack is executable so its time to write some shell code.
 
-![checksec](/images/DUCTF23/checksec.png)
+<img src="/images/ductf23/checksec.png" alt="checksec" class="img-small">
 
 We are told for this challenge that the flag is located in /chal/flag.txt so I made one locally with the contents `DUCTF{helloworld}`. The first steps was to write to shellcode to open and read the file.
 
@@ -136,7 +135,7 @@ def build_shellcode(offset=0):
 
 Entering that we can see that our flag is in memory.
 
-![in memory](/images/DUCTF23/in_mem.png)
+<img src="/images/ductf23/in_mem.png" alt="flag in memory" class="img-medium">
 
 Now how to get it out? After doing some reading and watching a video from pwn college. I found out that we could use the exit code to pass out a byte of information.
 
@@ -156,7 +155,7 @@ I was able to get an exit code 85 in this screenshot where I wanted to get out t
     ''')
 ```
 
-![right exit code](/images/DUCTF23/ascii_out.png)
+<img src="/images/ductf23/ascii_out.png" alt="ascii output" class="img-small">
 
 I tried my payload on the remote machine but was not able to see the exit code of the child process. I tried scratching my head for a little longer but ran out of time. After the CTF was over they released solutions, I was on the right track using a side channel attack but was using the wrong method. Lets have a deeper look.
 

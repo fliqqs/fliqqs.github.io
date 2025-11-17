@@ -38,6 +38,51 @@ a:hover p.projectTitle {
   width: auto;
 }
 
+/* Image grid styling - center content and images */
+.image-grid a {
+  text-align: center;
+  display: block;
+}
+
+.image-grid p.projectTitle {
+  text-align: center;
+}
+
+/* Override for homepage grid images - keep them NOT centered */
+.image-grid .img-responsive {
+  display: inline-block !important;
+  margin: 0 auto !important;
+}
+
+/* Blog post images - centered by default */
+img:not(.img-responsive) {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: auto !important;
+}
+
+/* Image size utility classes for blog posts */
+.img-tiny {
+  max-width: 30% !important;
+}
+
+.img-small {
+  max-width: 40% !important;
+}
+
+.img-medium {
+  max-width: 60% !important;
+}
+
+.img-large {
+  max-width: 80% !important;
+}
+
+.img-full {
+  max-width: 100% !important;
+}
+
 /* Inline code styling */
 code {
   background-color: #2d2d2d !important;
@@ -45,6 +90,7 @@ code {
   padding: 2px 6px !important;
   border-radius: 3px !important;
   font-family: 'Roboto Mono', monospace !important;
+  font-size: 0.75em !important;
 }
 
 /* Code blocks styling */

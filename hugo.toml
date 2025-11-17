@@ -8,3 +8,8 @@ theme = "console"
 
 [permalinks]
     headless = "/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
