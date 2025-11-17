@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ range .Site.Params.customCSS }}
+  <link rel="stylesheet" href="{{ . | relURL }}">
+{{ end }}
+
+<br>
+<p>Page not found</p>
+<br>
+
+<p><a href="{{ .Site.BaseURL }}">Return to the home page</a>.</p>
+{{ end }}

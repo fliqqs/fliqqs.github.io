@@ -1,0 +1,34 @@
+{{ define "main" }}
+<p>
+  A few janky things that run on the web. <!-- <a href="about/">(more)</a> -->
+</p>
+<br>
+
+<div class="image-grid">
+{{ with .Site.GetPage "/headless" }}
+    {{ range first 9 (sort .Data.Pages "Date" "desc")}}
+        <a href="{{ .Permalink }}" title="{{ .Title }}"><p class="projectTitle">{{ .Params.display }}</p>
+        {{ $image := resources.Get .Params.image }}
+        {{ with $image }}
+            {{ $thumb := .Resize "400x" }}
+            <img src="{{ $thumb.Permalink }}" alt="{{ .Title }}" class="img-responsive">
+        {{end}}
+        </a>
+    {{ end }}
+{{ end }}
+</div>
+
+<h2>Posts</h2>
+<ul>
+{{ with .Site.GetPage "/posts" }}
+    {{ range (sort .Data.Pages "Date" "desc")}}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <p>{{ .Summary }}</p>
+            <span style="float: right;">{{ .Date.Format "Jan 2, 2006" }}</span>
+        </li>
+    {{ end }}
+{{ end }}
+</ul>
+
+{{ end }}
